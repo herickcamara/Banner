@@ -1,0 +1,52 @@
+@keyframes preto {
+    0%{ opacity: 0; left:-1000px; top:0px;}
+    
+    25%{ opacity: 0.25; left:0px; top:0px;}
+    50%  { opacity: 0.75; left:0px; top:0px;}
+    75% { opacity: 1; left:0px; top:0px;}
+    100%{ opacity: 1; left:0px; top:1000px;}
+}
+
+@keyframes braco {
+    0%   {opacity: 0; left:1500px; top:0px;}
+    25%  {opacity: 0.25; left:0px; top:0px;}
+    50%  {opacity: 0.75; left:0px; top:0px;}
+    75%  {opacity: 1; left:0px; top:0px;}
+    100% {opacity: 1; left:0px; top:-1000px;}
+}
+@keyframes whiteleft {
+    0%   { left: -500px; top:0px;}
+    25%  { left:0px; top:0px;}
+    50%  { left:0px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left: -500px; top:0px;}
+}
+@keyframes blackright {
+    0%   { left:101%; top:0px;}
+    25%  { left:50%; top:0px;}
+    50%  { left:50%; top:0px;}
+    75%  { left:50%; top:0px;}
+    100% { left: 101%; top:0px;}
+}
+@keyframes blacktop {
+    0%   { left:0%; top:-60%;}
+    25%  { left:0%; top:0%;}
+    50%  { left:0%; top:0%;}
+    75%  { left:0%; top:0%;}
+    100% { left:0%; top:-60%;}
+}
+@keyframes whitedrom {
+    0%   { left:0%; top:104%;}
+    25%  { left:0%; top:50%;}
+    50%  { left:0%; top:50%;}
+    75%  { left:0%; top:50%;}
+    100% { left:0%; top:104%;}
+}
+@keyframes body {
+    from{background-color: rgba(112, 112, 112, 0.333);  }
+    to{background-color:rgb(48, 47, 47);}
+}
+@keyframes porqueRac{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
